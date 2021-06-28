@@ -1,0 +1,44 @@
+
+div.carousel{
+    height: 474px !important;
+}
+.indigo {
+    background-color: #26a69a !important;
+   
+}
+.navspace{
+    /* padding-top: 62px; */
+}
+.carousel .carousel-item>img {
+    width: 100%;
+    height: 474px;
+    overflow: hidden;
+}
+.awssld__content {
+    /* width: 100vw !important;
+    height: 465px !important; */
+}
+.awssld__bullets{
+    display: none !important;
+}
+.image{
+    width: 100vw !important;
+    height: 522px;
+    overflow: hidden;
+}
+.awssld {
+    --slider-height-percentage: 522px !important; 
+}
+.adjust-position{
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50%;
+}
+@media screen and (max-width: 501px) {
+    .awssld {
+        --slider-height-percentage: 416px !important; 
+    }
+}

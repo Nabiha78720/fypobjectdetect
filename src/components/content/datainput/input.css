@@ -1,0 +1,80 @@
+.dataSection{
+    height: 522px;
+    margin: 0 !important;
+    background-image: url("background.png");
+    
+}
+.datasend{
+
+}
+.area{
+    margin: auto;
+    left: 0px;
+    right:0px;
+    width:32%;
+    top: 30px;
+}
+.box{
+  
+}
+.buttons{
+    
+    align-items: center; 
+    justify-content: center;
+}
+.navspace{
+    /* padding-top: 68px; */
+}
+.bothbtn{
+   
+   
+}
+.flexbutton{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1137px) {
+    .area{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 921px) {
+    .area{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 850px) {
+    .area{
+        width: 55%;
+    }
+}
+@media screen and (max-width: 783px) {
+    .area{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 561px) {
+    .area{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .area{
+        width: 85%;
+    }
+    
+  }
+  
+
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}

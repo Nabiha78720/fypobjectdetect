@@ -1,0 +1,24 @@
+.page-footer{
+    background-color: rgb(93, 159, 214);
+}
+.footer-copyright{
+    background-color: #2b7299 !important;
+}
+.forbottom{
+    bottom: 0px !important;
+}
+.footerUp{
+    background-color: rgb(93, 159, 214) !important;
+}
+.footerDown{
+    background-color: #2b7299 !important;
+}
+.google{
+    background-color: #dd4b39 !important;
+}
+.linkedIn{
+    background-color: #0082ca !important;
+}
+.github{
+    background-color: #333333;
+}
